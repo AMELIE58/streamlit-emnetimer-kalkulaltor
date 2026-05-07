@@ -1,5 +1,11 @@
 import streamlit as st
 
+st.markdown("""
+<style>
+img { border-radius: 0 !important; }
+</style>
+""", unsafe_allow_html=True)
+
 st.image("NIH NO CMYK.jpg", width=180)
 st.title("Beregning av timer per emne")
 st.markdown("Juster verdiene nedenfor for å beregne antall timer.")
