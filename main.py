@@ -27,7 +27,6 @@ if grad == "Bachelor":
         format_func=lambda x: f"{x} SP"
     )
     k = sp_options[studiepoeng]
-    st.caption(f"Sats per student (k): **{k}**")
 
     st.divider()
 
@@ -50,6 +49,7 @@ if grad == "Bachelor":
         value=35,
         step=1
     )
+    st.caption(f"Sats per student (k): **{k}**")
 
     st.divider()
 
@@ -82,7 +82,6 @@ else:  # Master
         format_func=lambda x: f"{x} SP"
     )
     k = sp_options[studiepoeng]
-    st.caption(f"Sats per student (k): **{k}**")
 
     st.divider()
 
@@ -105,6 +104,7 @@ else:  # Master
         value=35,
         step=1
     )
+    st.caption(f"Sats per student (k): **{k}**")
 
     st.divider()
 
