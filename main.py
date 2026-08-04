@@ -13,7 +13,7 @@ st.markdown("Juster verdiene nedenfor for å beregne antall timer.")
 st.divider()
 
 # --- Bachelor / Master ---
-grad = st.radio("Velg grad", ["Bachelor", "Master"], horizontal=True)
+grad = st.radio("Velg nivå", ["Bachelor", "Master"], horizontal=True)
 
 st.divider()
 
